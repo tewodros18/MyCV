@@ -4,24 +4,95 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="icon" type="image/PNG" href="./Assets/images/download (2).jpg">
 </head>
 <body>
     <hr>
     <a href="index.html">Home</a>|
-    <a href="contact.html">Contact</a>
+    <a href="contact.html">Contact</a>|
+    <a href="galary.html">Gallery</a>
     <hr>
-    <form action="mailto:yourmail" method="POST" enctype="utf-8">    
-        <label for="name">First Name: </label>
-            <input type="text" name="fName" id="fName" required><br>
-            <label for="name">Last Name: </label>
-            <input type="text" name="lName" id="fName" required><br>
-        <label for="email">Email: </label>
-        <input type="email" name="email" id="email" required><br>
-        Leave Your Comment here ..<br>
-        <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
-        <br>
-        <input type="submit" value="Submit">
-        </form>
+    <table cellspacing="10">
+        <tr>
+            <td>
+                <img src="./Assets/images/download (2).jpg" alt=”Tewodros mesfin Profile Image">
+            </td>
+            <td>
+                <h1>Tewodros Mesfin</h1>
+                <h3>Student, Addis Abeba Institute of technology</h3>
+                <p>Hi there</p>
+                <p>I am Tewodros mesfin, i am an expert <strong>Java</strong> developer who has been working on java <em>5</em></em5>years. I am passionate about 
+                working in different types of programming languages</p>
+    
+            </td>
+        </tr>
+    </table>
+    <form action="mailto:tedymesfin18@gmail.com" method="POST" enctype="utf-8">  
+        <table>  
+            <tr>
+                <td>
+                    <label for="name" >First Name: </label>
+                </td>
         
+                <td>
+                    <input type="text" name="fName" id="fName" pattern="[a-z]{1,25}" title="1 to 20 letters" required>
+                </td>
+            
+            </tr>
+            <tr>
+                <td>
+                    <label for="name">Last Name: </label>
+                </td>
+        
+                <td>
+                    <input type="text" name="lName" id="fName" pattern="[a-z]{1,25}" title="1 to 20 letters" required><br>
+                </td>
+            
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">Email: </label>
+                </td>
+        
+                <td>
+                    <input type="email" name="email" id="email" required><br>
+                </td>
+            
+            </tr>
+            <select name="country" id="">
+                <option value="Asia">Asia</option>
+            </select>
+            <tr>
+                <td>
+                    What do you say ..<br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <textarea name="detail" id="detail" cols="30" rows="10"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="date">Date of Submition: </label>
+                </td>
+                <td>
+                    <input type="month" name="month" id="month">
+                </td>
+                
+            </tr>
+            <tr>
+                
+                <td>
+                    <input type="submit" value="Submit">
+                </td>
+            </tr>
+        
+        </form>
+        </table>
+        <hr>
+<p align = "center" >developed by tewodros mesfin</p>
+<hr>
+
 </body>
 </html>
