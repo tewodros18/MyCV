@@ -3,15 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact</title>
     <link rel="icon" type="image/PNG" href="./Assets/images/download (2).jpg">
 </head>
 <body>
-    <hr>
-    <a href="index.html">Home</a>|
-    <a href="contact.html">Contact</a>|
-    <a href="galary.html">Gallery</a>
-    <hr>
+    <div align="center">
+        <hr>
+        <a href="index.html">Home</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+        <a href="contact.html">Contact</a> &nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+        <a href="galary.html">Gallery</a>
+        <hr>
+        </div>
     <table cellspacing="10">
         <tr>
             <td>
@@ -28,71 +30,83 @@
         </tr>
     </table>
     <form action="mailto:tedymesfin18@gmail.com" method="POST" enctype="utf-8">  
-        <table>  
+        <table cellspacing="0"> 
             <tr>
                 <td>
-                    <label for="name" >First Name: </label>
+                <table cellspacing = "15">
+                    <tr>
+                        <td>
+                            <label for="name" >First Name: </label>
+                        </td>
+                
+                        <td>
+                            <input type="text" name="fName" id="fName" pattern="[a-z]{1,25}" title="1 to 20 letters" required>
+                        </td>
+                    
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="name">Last Name: </label>
+                        </td>
+                
+                        <td>
+                            <input type="text" name="lName" id="fName" pattern="[a-z]{1,25}" title="1 to 20 letters" required><br>
+                        </td>
+                    
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="email">Email: </label>
+                        </td>
+                
+                        <td>
+                            <input type="email" name="email" id="email" required><br>
+                        </td>
+                    
+                    </tr>
+                    <tr>
+                        <td>
+                            What do you say ..<br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <textarea name="detail" id="detail" cols="30" rows="10"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="date">Date of Submition: </label>
+                        </td>
+                        <td>
+                            <input type="month" name="month" id="month">
+                        </td>
+                        
+                    </tr>
+                    <tr>
+                        
+                        <td>
+                            <input type="submit" value="Submit">
+                        </td>
+                    </tr>
                 </td>
-        
-                <td>
-                    <input type="text" name="fName" id="fName" pattern="[a-z]{1,25}" title="1 to 20 letters" required>
+                </table>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                
                 </td>
-            
-            </tr>
-            <tr>
-                <td>
-                    <label for="name">Last Name: </label>
-                </td>
-        
-                <td>
-                    <input type="text" name="lName" id="fName" pattern="[a-z]{1,25}" title="1 to 20 letters" required><br>
-                </td>
-            
-            </tr>
-            <tr>
-                <td>
-                    <label for="email">Email: </label>
-                </td>
-        
-                <td>
-                    <input type="email" name="email" id="email" required><br>
-                </td>
-            
-            </tr>
-            <select name="country" id="">
-                <option value="Asia">Asia</option>
-            </select>
-            <tr>
-                <td>
-                    What do you say ..<br>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <textarea name="detail" id="detail" cols="30" rows="10"></textarea>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="date">Date of Submition: </label>
-                </td>
-                <td>
-                    <input type="month" name="month" id="month">
-                </td>
+                <td><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=addis%20abeba&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.online-timer.net">free online online timer</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></td>
+                
                 
             </tr>
-            <tr>
-                
-                <td>
-                    <input type="submit" value="Submit">
-                </td>
-            </tr>
+            
         
         </form>
         </table>
-        <hr>
+
+<hr>
 <p align = "center" >developed by tewodros mesfin &COPY;</p>
 <hr>
-<div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=addis%20abeba&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.online-timer.net">free online online timer</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>
 </body>
 </html>
