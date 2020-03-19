@@ -3,6 +3,9 @@ body{
     color: darkslategray;
     margin: 10px;
 }
+#j{
+    line-height: 25px;
+}
 p{
     line-height: 25px;
 }
@@ -21,7 +24,7 @@ section{
         font-family: Arial, Helvetica, sans-serif;
         padding: 5px 30px;
 }
-#o::first-letter{
+.o::first-letter{
     font-size: 2rem;
 }
 #content{
@@ -42,8 +45,12 @@ article{
     text-transform: uppercase;
 }
 /*  */
+nav>ul{
+    margin-left: 45rem;
+}
 nav>ul>li{
     display: inline-block;
+    margin-left: 2rem;
     padding: 10px 3px;
     font-size: 20px;
 }

@@ -24,9 +24,9 @@
     </header>
         <div id="content">
             <section>
-                <p class="title">Does it matter to use relative size on styling WebPages?</p>
+                <p class="title">Pixels Vs Relative units in CSS styling, Does it matter?</p>
                     <article>
-                        <p id="o"> 
+                        <p class="o"> 
                             Yes! The most important reason for using responsive and relative values in our CSS is for supporting users that rely on scaling the content 
                             for reasons including various visual inablities including myopia ,dyslxia. Users need to be able to zoom the viewport without loss of content or functionality, or restrictions imposed by CSS values or viewport scaling settings.
                             <ul>
@@ -53,7 +53,7 @@
                             In conclusion, when designing a website developers should consider the fact that
                             users do change their default font settings, and the developer should be maintaining users’ control over their own browsing experience.
                             If relative CSS units are used for the typography of the website
-                            it maintains the fidelity of the WebPages layouts without negatively impacting the needs of users.
+                            it maintains the fidelity of the WebPage's layouts without negatively impacting the needs of users.
                         </p>
                         <p>
                             <br>
@@ -64,47 +64,37 @@
                     </p>                
             </section>
             <section>
-                <p class="title">my second post</p>
+                <p class="title">"16px", how does a browser's default width and fixed values work</p>
                     <article>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum animi itaque modi, aliquid odio, blanditiis nostrum cum molestiae optio alias laborum ea obcaecati ducimus!
+                        <p class="o">
+                            Absolute length units such as pixels are fixed in relation to each other.
+                            <ul id="j">
+                                <li>in: inches — 1in is equal to 2.54cm.</li>
+                                <li>pt: points — the points used by CSS are equal to 1/72nd of 1in.</li>
+                                <li>px: pixel units — 1px is equal to 0.75pt.</li>
+                            </ul> 
                         </p>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum animi itaque modi, aliquid odio, blanditiis nostrum cum molestiae optio alias laborum ea obcaecati ducimus!
+                            For a CSS device, these dimensions are either anchored (i) by relating the physical units to their physical measurements, or (ii) by relating the pixel unit to the reference pixel. For print media and similar high-resolution devices, the anchor unit should be one of the standard physical units (inches, centimeters, etc). For lower-resolution devices, and devices with unusual viewing distances, it is recommended instead that the anchor unit be the pixel unit.
+                             For such devices it is recommended that the pixel unit refer to the whole number of device pixels that best approximates the reference pixel.
+                             The reference pixel is the visual angle of one pixel on a device with a pixel density of 96dpi and a distance from the reader of an arm's length. For a nominal arm's length of 28 inches, the visual angle is therefore about 0.0213 degrees.
+                            For reading at arm's length, 1px thus corresponds to about 0.26 mm (1/96 inch).
+                              
                         </p>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum animi itaque modi, aliquid odio, blanditiis nostrum cum molestiae optio alias laborum ea obcaecati ducimus!
+                            So after understanding What 1px represents next thing is what happens when a browser renders an HTML file i.e a webpage its going to display it in the default browser 
+                            font size which is 16px so any scaling to be done such as using 200px will be done proportionally taking the 16px or 1rem as a base line.
                         </p>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum animi itaque modi, aliquid odio, blanditiis nostrum cum molestiae optio alias laborum ea obcaecati ducimus!
-                        </p>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum animi itaque modi, aliquid odio, blanditiis nostrum cum molestiae optio alias laborum ea obcaecati ducimus!
-                        </p>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum animi itaque modi, aliquid odio, blanditiis nostrum cum molestiae optio alias laborum ea obcaecati ducimus!
-                        </p>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum animi itaque modi, aliquid odio, blanditiis nostrum cum molestiae optio alias laborum ea obcaecati ducimus!
-                        </p><p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum animi itaque modi, aliquid odio, blanditiis nostrum cum molestiae optio alias laborum ea obcaecati ducimus!
-                        </p>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum animi itaque modi, aliquid odio, blanditiis nostrum cum molestiae optio alias laborum ea obcaecati ducimus!
-                        </p>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum animi itaque modi, aliquid odio, blanditiis nostrum cum molestiae optio alias laborum ea obcaecati ducimus!
-                        </p>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum animi itaque modi, aliquid odio, blanditiis nostrum cum molestiae optio alias laborum ea obcaecati ducimus!
+                            <br>
                         </p>
                     </article>
                     <p class="date">
-                        March 13 , 2020 : 3:00AM 
+                        March 19 , 2020 : 9:00AM 
                     </p>                
             </section>
             <section>
-                <p class="title">my third post</p>
+                <p class="title">What's new in CSS3</p>
                     <article>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum animi itaque modi, aliquid odio, blanditiis nostrum cum molestiae optio alias laborum ea obcaecati ducimus!
