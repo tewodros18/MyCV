@@ -1,9 +1,9 @@
 #armenia{
     display: inline-block;
     position: absolute;
-    top: 45%;
-    left: 70%;
-    width: 15%;
+    top: 26.5rem;
+    left: 84rem;
+    width: 17.9rem;
     border: solid black;
     border-width: 1px;
 }
@@ -22,11 +22,11 @@
 #norway{
     display: inline-block;
     position: relative;
-    left: 10%;
+    left: 11.5rem;
     border: solid black;
     border-width: 1px;
     background-color:darkblue ;
-    width: 15%;
+    width: 17.9rem;
 
     }
 #None{
@@ -51,7 +51,7 @@
     border-right-width: 0px;
     border-color: white;
     background-color: red;
-    width: 65%;
+    width: 11.65rem;
     height: 4rem;
 }
 #Nthree{
@@ -76,19 +76,19 @@
     border-right-width: 0px;
     border-color: white;
     background-color: red;
-    width: 65%;
+    width: 11.65rem;
     height: 4rem;
 }
 
 #finland{
     display: inline-block;
     position: absolute;
-    left: 30%;
+    left: 36rem;
     background-color:darkblue ;
     border: solid;
     border-width: 1.5px;
     border-color: black;
-    width: 15%;
+    width: 17.9rem;
 
 }
 #Fone{
@@ -113,7 +113,7 @@
     border-right-width: 0px;
     border-color: white;
     background-color: white;
-    width: 65%;
+    width: 11.65rem;
     height: 4rem;
 }
 #Fthree{
@@ -138,17 +138,17 @@
     border-right-width: 0px;
     border-color: white;
     background-color: white;
-    width: 65%;
+    width: 11.65rem;
     height: 4rem;
 }
 #Japan{
     display: inline-block;
     position: absolute;
-    left: 50%;
+    left: 60rem;
     border: solid;
     border-color: black;
     border-width: 1px;
-    width: 15%;
+    width: 17.9rem;
     height: 9rem;
 }
 #Jone{
@@ -163,10 +163,10 @@
 #Vitenam{
     display: inline-block;
     position: absolute;
-    left: 70%;
+    left: 84rem;
     border: solid black 1px;
     background-color: red;
-    width: 15%;
+    width: 17.9rem;
     height: 10rem;
 }
 #Vstar{
@@ -180,12 +180,12 @@
 #Easttamor{
     display: inline-block;
     position: absolute;
-    top: 25%;
-    left: 70%;
+    top: 14.7rem;
+    left: 84rem;
 
     border: solid black 1px;
     background-color: red;
-    width: 15%;
+    width: 17.9rem;
     height: 9rem;
 }
 #triangle0{
@@ -218,11 +218,11 @@
 #Czech{
     display: inline-block;
     position: absolute;
-    top: 25%;
-    left: 50%;
+    top: 14.7rem;
+    left: 60rem;
     border: solid black 1px;
     
-    width: 15%;
+    width: 17.9rem;
     height: 9rem;
 }
 #Ctri{
@@ -241,11 +241,11 @@
 #Chile{
     display: inline-block;
     position: absolute;
-    top: 25%;
-    left: 30%;
+    top: 14.7rem;
+    left: 36rem;
     border: solid black 1px;
     
-    width: 15%;
+    width: 17.9rem;
     height: 9rem;
 }
 #Cblue{
@@ -270,11 +270,11 @@
 #Djbouti{
     display: inline-block;
     position: absolute;
-    top: 25%;
-    left: 10%;
+    top: 14.7rem;
+    left: 12rem;
     border: solid black 1px;
     background-color: rgb(135, 187, 235);
-    width: 15%;
+    width: 17.9rem;
     height: 9rem;
 }
 #Dtri{
@@ -302,13 +302,13 @@
 #Tunisia{
     display: inline-block;
     position: absolute;
-    top: 45%;
-    left: 10%;
+    top: 26.5rem;
+    left: 12rem;
     background-color: red;
     border: solid;
     border-color: black;
     border-width: 1px;
-    width: 15%;
+    width: 17.9rem;
     height: 9rem;
 }
 #Tone{
@@ -334,9 +334,9 @@
 #Gabon{
     display: inline-block;
     position: absolute;
-    top: 45%;
-    left: 30%;
-    width: 15%;
+    top: 26.5rem;
+    left: 36rem;
+    width: 17.9rem;
     border: solid black;
     border-width: 1px;
 }
@@ -355,9 +355,9 @@
 #Botswanna{
     display: inline-block;
     position: absolute;
-    top: 45%;
-    left: 50%;
-    width: 15%;
+    top: 26.5rem;
+    left: 60rem;
+    width: 17.9rem;
     border: solid black;
     border-width: 1px;
 }

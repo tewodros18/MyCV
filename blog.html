@@ -18,39 +18,49 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="contact.html">Contact</a></li>
                 <li><a href="blog.html">Blog</a></li>
+
             </ul>
         </nav>
     </header>
         <div id="content">
             <section>
-                <p class="title">my first post</p>
+                <p class="title">Does it matter to use relative size on styling WebPages?</p>
                     <article>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum animi itaque modi, aliquid odio, blanditiis nostrum cum molestiae optio alias laborum ea obcaecati ducimus!
+                        <p id="o"> 
+                            Yes! The most important reason for using responsive and relative values in our CSS is for supporting users that rely on scaling the content 
+                            for reasons including various visual inablities including myopia ,dyslxia. Users need to be able to zoom the viewport without loss of content or functionality, or restrictions imposed by CSS values or viewport scaling settings.
+                            <ul>
+                                <li><p>must be able to resize text without assistive technology up to 200 percent, without loss of content or functionality.</p> </li>
+                                <li><p>must be able to resize text without being forced to scroll both horizontally and vertically to read that content.</p> </li>
+                            </ul>
                         </p>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum animi itaque modi, aliquid odio, blanditiis nostrum cum molestiae optio alias laborum ea obcaecati ducimus!
+                            The main counter argument that can be posed for using fixed values like pixels instead of relative values like rem or em is the continuous improvment
+                            in the ablitiy of browsers to provide Zoom functionality. Since most popular browsers offer the option to zoom a given webpage why should
+                            web developers go the extra mile to calculate and change pixels into relative values? Well as long as the browser's
+                            size is set to the default value often 16px the Zoom function is adquate to navigate but The problem arises when the WebPage
+                            is visted by a user using a browser with a different default font size.
+                            If a user changes the default settings in a browser, ideally all the fonts will scale up (or down) proportionately in reference to the size of the font selected in the setting. Ideally, that is, if the webpage is using relative CSS units.
+                             This browser font size adjustment won’t have any effect on typography that uses fixed value like pixels for font-size and/or the line-height.
+                             this failure to scale up proportionally will often cause static fonts and compressed line spacing, and such line spacing can be tough to parse for users who have a cognitive disability
+                             
                         </p>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum animi itaque modi, aliquid odio, blanditiis nostrum cum molestiae optio alias laborum ea obcaecati ducimus!
+                            In addition, This will force the user to continuously zoom in and out as they navigate from one sectioni of the website to the other 
+                            breaking the seamless interaction that can be easily acheived by using the relative values.
                         </p>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum animi itaque modi, aliquid odio, blanditiis nostrum cum molestiae optio alias laborum ea obcaecati ducimus!
+                            In conclusion, when designing a website developers should consider the fact that
+                            users do change their default font settings, and the developer should be maintaining users’ control over their own browsing experience.
+                            If relative CSS units are used for the typography of the website
+                            it maintains the fidelity of the WebPages layouts without negatively impacting the needs of users.
                         </p>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum animi itaque modi, aliquid odio, blanditiis nostrum cum molestiae optio alias laborum ea obcaecati ducimus!
-                        </p>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum animi itaque modi, aliquid odio, blanditiis nostrum cum molestiae optio alias laborum ea obcaecati ducimus!
-                        </p>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum animi itaque modi, aliquid odio, blanditiis nostrum cum molestiae optio alias laborum ea obcaecati ducimus!
-                        </p><p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum animi itaque modi, aliquid odio, blanditiis nostrum cum molestiae optio alias laborum ea obcaecati ducimus!
+                            <br>
                         </p>
                     </article>
                     <p class="date">
-                        March 13 , 2020 : 3:00AM 
+                        March 19 , 2020 : 12:13AM 
                     </p>                
             </section>
             <section>
