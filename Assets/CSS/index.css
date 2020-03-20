@@ -83,3 +83,6 @@ h3{
     margin-left: 30%;
     padding-left: 14%;
 }
+a:visited {
+    color: #00FF00;
+}

@@ -70,3 +70,6 @@ label{
     border-bottom: solid black;
     border-top: solid black;
 }
+a:visited {
+    color: #00FF00;
+}
