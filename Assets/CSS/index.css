@@ -86,3 +86,9 @@ h3{
 a:visited {
     color: #00FF00;
 }
+@media screen and (max-width: 1635px) and (min-width: 700px) {
+    ul li {
+        font-size: 24px;
+        
+    }
+}
